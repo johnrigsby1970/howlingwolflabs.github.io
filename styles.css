@@ -107,6 +107,46 @@ main {
   color: var(--text-muted);
 }
 
+.hero-dark p {
+  font-size: 1.2rem;
+font-weight: 600;
+  color: black !important;
+}
+
+.main-background {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden; /* Keeps the filtered background contained */
+  color: #ffffff;    /* Ensures text remains crisp and untouched */
+}
+
+.main-background::before {
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Places the background behind container content */
+background-color: #7BC6FA;
+  background-image: 
+
+    url('assets/PXL_20250718_213956216.PANO.jpg');
+background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+filter: contrast(180%) saturate(220%) invert(10%) hue-rotate(190deg); 
+/*filter: contrast(160%) sepia(100%) hue-rotate(190deg) saturate(200%);*/
+
+  opacity: 0.85; /* Softens overall intensity */
+}
+
+.main-background > * {
+  position: relative;
+  z-index: 2;
+}
+
 /* Product Cards Grid */
 .grid {
   display: grid;
