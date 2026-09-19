@@ -128,7 +128,7 @@ content: "";
   width: 100%;
   height: 100%;
   z-index: 1; /* Places the background behind container content */
-background-color: #7BC6FA;
+background-color: #A895F7;
   background-image: 
 
     url('assets/PXL_20250718_213956216.PANO.jpg');
@@ -136,9 +136,9 @@ background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-/*filter: contrast(180%) saturate(220%) invert(10%) hue-rotate(190deg); */
+/*filter: contrast(180%) saturate(190%) invert(10%) hue-rotate(190deg); */
 
-filter: contrast(160%) sepia(100%) hue-rotate(190deg) saturate(200%);
+filter: contrast(120%) sepia(100%) hue-rotate(190deg) saturate(240%);
   opacity: 0.85; /* Softens overall intensity */
 }
 
