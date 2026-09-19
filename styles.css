@@ -136,9 +136,9 @@ background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-filter: contrast(180%) saturate(220%) invert(10%) hue-rotate(190deg); 
-/*filter: contrast(160%) sepia(100%) hue-rotate(190deg) saturate(200%);*/
+/*filter: contrast(180%) saturate(220%) invert(10%) hue-rotate(190deg); */
 
+filter: contrast(160%) sepia(100%) hue-rotate(190deg) saturate(200%);
   opacity: 0.85; /* Softens overall intensity */
 }
 
