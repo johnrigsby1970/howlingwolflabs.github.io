@@ -110,7 +110,9 @@ main {
 .hero-dark p {
   font-size: 1.2rem;
 font-weight: 600;
-  color: black !important;
+color: var(--text-muted);
+
+
 }
 
 .main-background {
@@ -131,7 +133,10 @@ content: "";
 background-color: #A895F7;
   background-image: 
 
-    url('assets/PXL_20250718_213956216.PANO.jpg');
+   /* url('assets/PXL_20250718_213956216.PANO.jpg'); */
+
+url('assets/StockCake-Purple_Mountain_Majesty-1665929-standard.jpg');
+
 background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
